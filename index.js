@@ -30,9 +30,18 @@ function unleashDog(dogName, dogBreed) {
 }
 let routine =[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
 function exerciseDog(dogName,dogBreed){
+<<<<<<< HEAD
   let array=[]
   for (let i=0;i<routine.length;i++){
+=======
+  array=[]
+  for (i=0;i<routine.lenght;i++){
+>>>>>>> f6382697669af774e4342cae38f06fe629892785
    array+=routine[i](dogName,dogBreed);
   }
   return array;
   }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> f6382697669af774e4342cae38f06fe629892785
